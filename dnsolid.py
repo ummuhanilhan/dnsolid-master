@@ -756,7 +756,7 @@ def generate_cli(domains):
 		info = ''
 
 		if 'dns-a' in domain:
-                    			info += one_or_all(domain['dns-a'])
+                    		info += one_or_all(domain['dns-a'])
 			if 'geoip-country' in domain:
 				info += FG_CYA + '/' + domain['geoip-country'] + FG_RST
 			info += ' '
